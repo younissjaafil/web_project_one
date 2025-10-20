@@ -16,7 +16,7 @@ function Footer() {
         {" | "}
         <Link to="/contact">Contact</Link>
         {" | "}
-        <Link to="/privacy">Privacy Policy</Link>
+        <Link to="/privacy">Contact</Link>
         {" | "}
         <Link to="/terms">Terms of Service</Link>
         {" | "}

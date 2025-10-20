@@ -3,7 +3,6 @@
   text-align: center;
   padding: 60px 30px;
   background-color: #45b06a;
-  /* background-image: url('https://placehold.co/1200x400/a0d2eb/ffffff?text=Inspiring+Events+Background'); */
   background-size: cover;
   background-position: center;
   border-radius: 8px;
@@ -26,6 +25,13 @@
   /* Lighter text for contrast */
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
   margin-bottom: 30px;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .features-grid {
