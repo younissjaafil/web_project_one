@@ -1,0 +1,58 @@
+/* --- Services Page with Cards --- */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.service-card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.service-card .service-icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 20px auto;
+  border-radius: 50%;
+  background-color: #e8f5e9;
+  /* Light green for icon bg */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-card .service-icon img {
+  /* if using img for icons */
+  max-width: 35px;
+  max-height: 35px;
+}
+
+.service-card .service-icon i {
+  /* if using font awesome */
+  font-size: 1.8em;
+  color: #50c878;
+}
+
+.service-card h4 {
+  font-size: 1.3em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 0.95em;
+  color: #666;
+  line-height: 1.6;
+}
