@@ -36,24 +36,19 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link to="/contact" id="contactUsPageNavLink" onClick={closeMenu}>
-            Contact
-          </Link>
-        </li>
-        <li>
-          <Link to="/organizer" id="loginPageNavLink" onClick={closeMenu}>
-            Organizer Event
-          </Link>
-        </li>
-        <li>
-          <Link to="/dashboard" id="dashboardPageNavLink" onClick={closeMenu}>
-            My Dashboard
+          <Link to="/events" id="eventsPageNavLink" onClick={closeMenu}>
+            Events
           </Link>
         </li>
 
         <li>
-          <Link to="/admin" id="adminDashboardPageNavLink" onClick={closeMenu}>
-            Admin Summary
+          <Link to="/policy" id="policyPageNavLink" onClick={closeMenu}>
+            Policy
+          </Link>
+        </li>
+        <li>
+          <Link to="/contact" id="contactUsPageNavLink" onClick={closeMenu}>
+            Contact
           </Link>
         </li>
       </ul>

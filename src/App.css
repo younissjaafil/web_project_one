@@ -13,6 +13,11 @@ body {
 }
 
 /* --- Main Content Container --- */
+.container {
+  min-height: calc(100vh - 200px);
+  padding: 20px;
+}
+
 .content-container {
   width: 90%;
   max-width: 1200px;

@@ -1,0 +1,289 @@
+.events-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 500px;
+  position: relative;
+  z-index: 1;
+}
+
+.events-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+
+.user-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.user-input {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  max-width: 100%;
+  transition: border-color 0.3s;
+}
+
+.user-input:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.actions-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.btn-create {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-create:hover {
+  background-color: #45a049;
+}
+
+.create-event-form {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.create-event-form h2 {
+  margin-top: 0;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.create-event-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.create-event-form input,
+.create-event-form textarea {
+  padding: 12px;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+}
+
+.create-event-form input:focus,
+.create-event-form textarea:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.create-event-form textarea {
+  min-height: 100px;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.btn-submit {
+  background-color: #2196f3;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+  background-color: #0b7dda;
+}
+
+.events-list {
+  margin-top: 40px;
+}
+
+.events-list h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.no-events {
+  text-align: center;
+  color: #666;
+  font-size: 1.1rem;
+  padding: 40px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.event-card {
+  background-color: white;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.event-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.event-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.event-card h3 {
+  margin: 0;
+  color: #2196f3;
+  font-size: 1.5rem;
+}
+
+.btn-delete {
+  background-color: #f44336;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-delete:hover {
+  background-color: #da190b;
+}
+
+.event-date,
+.event-location,
+.event-capacity {
+  margin: 8px 0;
+  color: #555;
+  font-size: 1rem;
+}
+
+.event-description {
+  margin: 15px 0;
+  color: #666;
+  line-height: 1.6;
+}
+
+.registered-users {
+  background-color: #f0f8ff;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+.registered-users strong {
+  color: #333;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.registered-users ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.registered-users li {
+  background-color: #4caf50;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.event-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn-register,
+.btn-unregister {
+  flex: 1;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-register {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-register:hover {
+  background-color: #45a049;
+}
+
+.btn-register:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.btn-unregister {
+  background-color: #ff9800;
+  color: white;
+}
+
+.btn-unregister:hover {
+  background-color: #e68900;
+}
+
+@media (max-width: 768px) {
+  .events-container {
+    padding: 10px;
+  }
+
+  .events-container h1 {
+    font-size: 2rem;
+  }
+
+  .user-input {
+    width: 100%;
+  }
+
+  .event-card {
+    padding: 15px;
+  }
+
+  .event-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .event-actions {
+    flex-direction: column;
+  }
+
+  .registered-users ul {
+    flex-direction: column;
+  }
+}
