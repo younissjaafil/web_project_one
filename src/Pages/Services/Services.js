@@ -4,7 +4,6 @@ import "./Services.css";
 export default function Services() {
   return (
     <>
-      {/* <div id="homeServicesPage" className="page"> */}
       <h2>Services for Student Clubs & Societies</h2>
       <p>
         We provide essential tools and services tailored for university clubs to
@@ -93,7 +92,6 @@ export default function Services() {
           </p>
         </div>
       </div>
-      {/* </div> */}
     </>
   );
 }

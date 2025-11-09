@@ -1,13 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./Components/Common/Navbar/Navbar.js";
-import Home from "./Pages/Home/Home.js";
-import Events from "./Pages/Events/Events.js";
-import Services from "./Pages/Services/Services.js";
-import Contact from "./Pages/Contact/Contract.js";
-import Policy from "./Pages/Policy/Policy.js";
-import Footer from "./Components/Common/Footer/Footer.js";
+import Navbar from "./Components/Common/Navbar/Navbar";
+import Footer from "./Components/Common/Footer/Footer";
+import Home from "./Pages/Home/Home";
+import Events from "./Pages/Events/Events";
+import Services from "./Pages/Services/Services";
+import Contact from "./Pages/Contact/Contract";
+import Policy from "./Pages/Policy/Policy";
 import "./App.css";
+
 function App() {
   return (
     <Router>
@@ -25,4 +26,5 @@ function App() {
     </Router>
   );
 }
+
 export default App;

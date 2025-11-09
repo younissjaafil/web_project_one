@@ -5,7 +5,6 @@ import "./Home.css";
 function Home() {
   return (
     <div className="content-container">
-      {/* Hero Section */}
       <div className="hero-section">
         <h1>Empowering University Clubs, One Event at a Time</h1>
         <div className="cta-buttons">
@@ -18,7 +17,6 @@ function Home() {
         </div>
       </div>
 
-      {/* Why Use EventLiu Section */}
       <section className="why-section">
         <h2>Why Use EventLiu for Your Club?</h2>
 
@@ -58,7 +56,6 @@ function Home() {
         </div>
       </section>
 
-      {/* Call to Action Section */}
       <section className="cta-section">
         <h3>Start Your Next Club Event with Confidence</h3>
         <p>
