@@ -12,8 +12,8 @@ function Home() {
           <Link to="/services" className="cta-button">
             Explore Club Services
           </Link>
-          <Link to="/login" className="cta-button cta-button-dark">
-            Club Admin Login
+          <Link to="/events" className="cta-button cta-button-dark">
+            Check Out Upcoming Events
           </Link>
         </div>
       </div>
